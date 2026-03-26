@@ -11,6 +11,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "dependencies": {
+    "live-server": "^1.2.2",
     "servor": "^4.0.2"
   }
 }

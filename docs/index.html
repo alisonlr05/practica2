@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <title>Practica 2</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Sede Te Acompaña - UCR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <h1>Hola mundo</h1>
-  <script src="index.js"></script>
+
+<div class="poster">
+
+  <!-- Encabezado con título animado -->
+  <div class="header">
+    <div class="dots">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+
+    <div class="title-row">
+      <span class="excl left">¡</span>
+      <div class="title-wrapper">
+        <span class="badge badge-la">La</span>
+        <span class="badge badge-sede">Sede</span>
+        <span class="badge badge-te">Te</span>
+        <span class="badge badge-acompana">Acompaña</span>
+      </div>
+      <span class="excl right">!</span>
+    </div>
+  </div>
+
+  <!-- Subtítulo -->
+  <div class="subtitle">
+    <p>El respeto no se negocia</p>
+    <p class="stop">¡Pará ya de acosar!</p>
+  </div>
+
+  <!-- Código QR -->
+  <div class="qr-section">
+    <p>Si necesitas ayuda, escanea este QR</p>
+    <img src="laboratorio2\docs\descarga.png" alt="QR UCR"/>
+  </div>
+
+  <!-- Personas (sin íconos de mano) -->
+  <div class="people">
+    <div class="person">
+      <div class="silhouette">🧑</div>
+    </div>
+    <div class="person">
+      <div class="silhouette">👩</div>
+    </div>
+  </div>
+
+  <!-- Barra de logos -->
+  <div class="footer">
+    <div class="footer-logo">UCR</div>
+    <div class="divider"></div>
+    <div class="footer-middle">
+      <span>UCR</span>
+      <span>Libre de</span>
+      <span>Acoso Sexual</span>
+    </div>
+    <div class="divider"></div>
+    <div class="footer-right">
+      <p><strong>SG</strong></p>
+      <p>Sede de<br/>Guanacaste</p>
+    </div>
+  </div>
+
+  <!-- Imagen inferior del repositorio -->
+  <div class="bottom-image-wrap">
+    <img
+      src="descarga.png"
+      alt="Imagen UCR"
+      onerror="this.style.display='none'"
+    />
+  </div>
+
+</div>
+
 </body>
 </html>
